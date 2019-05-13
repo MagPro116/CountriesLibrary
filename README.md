@@ -4,7 +4,7 @@
 <img src="app/src/main/res/drawable/ar.gif">
 
 
-Flags, codes and names of countries of the world, Arabic / English
+Flags, codes and names of countries, Arabic / English
 
 step 1 :-
 
