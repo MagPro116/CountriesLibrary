@@ -1,6 +1,8 @@
 # Flags
-|[](app/src/main/res/drawable/ar.gif)
-|[](app/src/main/res/drawable/en.gif)
+
+<img src="app/src/main/res/drawable/en.gif">
+<img src="app/src/main/res/drawable/ar.gif">
+
 
 Flags, codes and names of countries of the world, Arabic / English
 
