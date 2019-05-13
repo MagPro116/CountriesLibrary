@@ -8,21 +8,12 @@ step 1 :-
 	         }
            
 step 2 :-
-       import com.gmail.magpro116.flags.MagPro;
-       public class MainActivity extends AppCompatActivity {
-           MagPro magPro;
-           Spinner spinner;
-           @Override
-           protected void onCreate(Bundle savedInstanceState) {
-             super.onCreate(savedInstanceState);
-             setContentView(R.layout.activity_main);
 
-             spinner = findViewById(R.id.spinner);
-             magPro = new MagPro(this,spinner);
+             Spinner spinner = findViewById(R.id.spinner);
+             MagPro magPro = new MagPro(this,spinner);
              magPro.fillSpinner();
              
-            } 
-        }
+       
 
 To return values :-
 
