@@ -3,7 +3,12 @@ Flags, codes and names of countries of the world, Arabic / English
 
 step 1 :-
 
-         dependencies { implementation 'com.github.MagPro116:Flags:1.0.0' }
+         repositories {
+                maven { url 'https://jitpack.io' }
+	}
+         dependencies { 
+               implementation 'com.github.MagPro116:Flags:1.0.0'
+         }
            
 step 2 :-
 
