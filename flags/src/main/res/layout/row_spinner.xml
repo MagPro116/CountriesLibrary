@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TableRow
+        android:padding="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/txtCode"
+            android:textSize="19dp"
+            android:text="+212"
+            android:textStyle="bold"
+            android:textColor="#F4511E"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/txtName"
+            android:textSize="19dp"
+            android:text="@string/Egypt"
+            android:textColor="#00897B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/imgFlag"
+            android:src="@drawable/egypt"
+            android:layout_width="33dp"
+            android:layout_height="33dp"/>
+
+    </TableRow>
+    <View
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+</TableLayout>
