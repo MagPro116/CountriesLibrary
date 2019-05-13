@@ -15,6 +15,6 @@ step 2 :-
 
 To return values :-
 
-          magPro.getCode();    // String
-          magPro.getName();    // String
-          magPro.getFlag();    // Bitmap   
+          magPro.getCode();    // String country code
+          magPro.getName();    // String country name
+          magPro.getFlag();    // Bitmap country flag
